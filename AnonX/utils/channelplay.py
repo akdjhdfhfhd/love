@@ -2,7 +2,7 @@ from AnonX import app
 from AnonX.utils.database import get_cmode
 
 
-async def get_channeplayCB(_, command, CallbackQuery):
+async def get_channeplayB(_, command, CallbackQuery):
     if command == "c":
         chat_id = await get_cmode(CallbackQuery.message.chat.id)
         if chat_id is None:
