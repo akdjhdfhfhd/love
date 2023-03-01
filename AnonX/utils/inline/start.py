@@ -40,6 +40,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
         ],
         [
+           InlineKeyboardButton(
+
+            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://t.me/ah07v"
             InlineKeyboardButton(
                 text="❣ sᴜᴩᴩᴏʀᴛ ❣", url=config.SUPPORT_GROUP
             ),
@@ -48,6 +51,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
         ],
         [
+            InlineKeyboardButton(
+
+            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://t.me/ah07v"
             InlineKeyboardButton(
                 text="✨ sᴏᴜʀᴄᴇ ✨", url=config.
             )
